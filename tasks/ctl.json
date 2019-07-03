@@ -1,0 +1,10 @@
+{
+  "puppet_task_version": 1,
+  "supports_noop": false,
+  "description": "A short description of this task",
+  "parameters": {
+    "command": {
+      "description": "Which apachectl command to run",
+      "type": "Enum[start,stop,restart,status,graceful,graceful-stop]"
+  }
+}
